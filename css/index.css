@@ -69,8 +69,15 @@ h1, h2, h3, h4, h5 {
 
 
 .container {
+    max-width: 800px;
 	margin: 0 auto;
-	width: 876px;
+	width: 100%;
+}
+
+@media (max-width: 800px){
+    .container {
+        background: lightgray;
+    }
 }
 
 .nav {
