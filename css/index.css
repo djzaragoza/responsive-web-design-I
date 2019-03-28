@@ -149,6 +149,10 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 }
 
+@media (max-width: 515px){
+    
+}
+
 .top-section-item.left {
 	display: inline-block;
 	width: 50%;
