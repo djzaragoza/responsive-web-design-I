@@ -110,6 +110,13 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 20px;
 }
 
+@media screen and (max-width: 600px){
+	.main-header {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
 .header-left {
 	display: flex;
 	width: 100%;
@@ -124,6 +131,7 @@ h1, h2, h3, h4, h5 {
 @media screen and (max-width: 800px){
 	.logo {
 		flex-direction: column-reverse;
+		justify-content: center;
 	}
 }
 
