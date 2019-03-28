@@ -67,7 +67,6 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-
 .container {
     max-width: 800px;
 	margin: 0 auto;
@@ -149,8 +148,11 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 }
 
-@media (max-width: 515px){
-    
+@media (max-width: 800px){
+    .img-header {
+        display: none;
+        background: lightskyblue;
+    }
 }
 
 .top-section-item.left {
@@ -177,6 +179,12 @@ h1, h2, h3, h4, h5 {
 	margin-left: 10px;
 }
 
+@media (max-width: 800px){
+    .bottom-section-item {
+        flex-direction: column;
+    }
+}
+
 .bottom-section-item.first-item {
 	margin: 0;
 }
@@ -195,4 +203,5 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 80px;
 	text-align: center;
 }
+
 
