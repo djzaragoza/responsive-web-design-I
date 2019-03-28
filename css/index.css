@@ -151,21 +151,21 @@ h1, h2, h3, h4, h5 {
 }
 
 .bottom-section-first-item {
-	width: 80%;
-	margin-bottom: 45px;
-	
+	margin: 0;
+	margin-bottom: 30px;
+	margin-right: 20px;
 }
 
 .bottom-section-second-item {
-	width: 80%;
-	margin-bottom: 45px;
-	margin-right: 4px;
+	margin: 0;
+	margin-bottom: 30px;
+	margin-left: 20px;
 }
 
 .bottom-section-third-item {
-	width: 80%;
-	margin-bottom: 45px;
-	margin-right: 4px;
+	margin: 0;
+	margin-bottom: 30px;
+	margin-left: 20px;
 }
 
 .bottom-final {
