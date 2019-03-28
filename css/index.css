@@ -69,14 +69,8 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	max-width: 800px;
-	width: 100px;
+	width: 100%;
 	margin: 0 auto;
-}
-
-@media (max-width: 800px){
-	.container {
-		display: flex;	
-	}
 }
 
 .nav {
@@ -92,16 +86,22 @@ h1, h2, h3, h4, h5 {
 }
 
 .links {
-	display: inline-block;
+	display: flex;
 	height: 100%;
 	padding-top: 10px;
 }
-
 
 .header {
 	border-bottom: 1px solid black;
 	margin: 40px 0;
 	padding: 30px 0 70px 0;
+}
+
+@media (max-width: 515px){
+	.header {
+		display: flex;
+		text-align: center;
+	}
 }
 
 .main-header {
@@ -117,13 +117,25 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo {
-	display: inline;
+	display: flex;
 	align-self: center;
+}
+
+@media (max-width: 800px){
+	.logo {
+		flex-direction: column-reverse;
+	}
 }
 
 .code-logo {
 	display: inline;
 	flex-direction: column-reverse;
+}
+
+@media (max-width: 600px){
+	.code-logo {
+		display: none;	
+	}
 }
 
 .btn-get-started {
