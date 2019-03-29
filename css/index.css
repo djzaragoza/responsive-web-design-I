@@ -68,17 +68,17 @@ h1, h2, h3, h4, h5 {
 /* TABLET mode */
 
 .container {
-	max-width: 800px;
+	max-width: 700px;
 	width: 100%;
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 700px){
 	.container {
 		width: 100%;
 	}
 	.nav {
-		width: 70%;
+		width: 30%;
 	}
 	.logo {
 		width: 30%;
@@ -91,8 +91,20 @@ h1, h2, h3, h4, h5 {
 	.main-header {
 		flex-direction: column;
 	}
-	.code-logo {
+	.img-header {
+		width: 30%;
 		display: none;	
+	}
+	.btn-get-started {
+		justify-content: center;
+	}
+}
+
+/* MOBILE mode */
+
+@media screen and (max-width: 515px){
+	.container {
+		width: 515px;
 	}
 }
 
@@ -138,7 +150,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .code-logo {
-	display: inline;
+	display: flex;
 	flex-direction: column-reverse;
 }
 
@@ -168,7 +180,7 @@ h1, h2, h3, h4, h5 {
 .top-section-item-right {
 	width: 50%;
 	margin-bottom: 40px;
-	
+	margin-left: 10px;
 }
 
 .middle-img {
@@ -176,23 +188,24 @@ h1, h2, h3, h4, h5 {
 }
 
 .bottom-final {
-	display: flex;
-	text-align: left;
+	display: inline-block;
 }
 
 .bottom-section-first-item {
-	
+	margin: 0;
 	margin-bottom: 20px;
 	margin-right: 4px;
 }
 
 .bottom-section-second-item {
-	margin-bottom: 20px;
+	margin: 0;
+	margin-bottom: 30px;
 	margin-left: 20px;
 }
 
 .bottom-section-third-item {
-	margin-bottom: 20px;
+	margin: 0;
+	margin-bottom: 30px;
 	margin-left: 20px;
 }
 
@@ -209,6 +222,7 @@ h1, h2, h3, h4, h5 {
 	margin-top: 80px;
 	margin-bottom: 80px;
 	text-align: center;
+	justify-content: center;
 }
 
 /* CSS code for services.html below */
