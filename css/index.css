@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5 {
 	}
 	.links {
 		width: 100%;
-		/* flex-direction: column-reverse; */
+		flex-direction: column-reverse;
 	}
 	.logo {
 		width: 100%;
